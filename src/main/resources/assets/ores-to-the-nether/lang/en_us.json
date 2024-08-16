@@ -2,5 +2,6 @@
 	"item.ores-to-the-nether.diamond_nugget": "Diamond Nugget",
 	"block.ores-to-the-nether.nether_diamond_ore": "Nether Diamond Ore",
 	"item.ores-to-the-nether.emerald_nugget": "Emerald Nugget",
-	"block.ores-to-the-nether.nether_emerald_ore": "Nether Emerald Ore"
+	"block.ores-to-the-nether.nether_emerald_ore": "Nether Emerald Ore",
+	"block.ores-to-the-nether.nether_iron_ore": "Nether Iron Ore"
 }
