@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ores-to-the-nether:block/nether_iron_ore"
+  }
+}

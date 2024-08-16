@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "emerald",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ores-to-the-nether:emerald_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:emerald"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "diamond",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ores-to-the-nether:diamond_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond"
+  }
+}

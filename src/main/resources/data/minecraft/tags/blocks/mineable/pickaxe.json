@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ores-to-the-nether:nether_diamond_ore",
+    "ores-to-the-nether:nether_emerald_ore",
+    "ores-to-the-nether:nether_iron_ore"
+  ]
+}

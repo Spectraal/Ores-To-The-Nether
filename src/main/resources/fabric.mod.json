@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "ores-to-the-nether",
+	"version": "${version}",
+	"name": "Ores To The Nether",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ores-to-the-nether/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"spectraal.ores.to.the.nether.OresToTheNether"
+		],
+		"client": [
+			"spectraal.ores.to.the.nether.OresToTheNetherClient"
+		],
+		"fabric-datagen": [
+			"spectraal.ores.to.the.nether.OresToTheNetherDataGenerator"
+		]
+	},
+	"mixins": [
+		"ores-to-the-nether.mixins.json",
+		{
+			"config": "ores-to-the-nether.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
